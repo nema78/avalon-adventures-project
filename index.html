@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avalon Adventures</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+  <div class="logo">
+    <img src="images/Avalon-Adventures-Transparent-2.png" alt="Avalon-Adventures-Transparent-2">
+  </div>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+   <aside class="hero-card" aria-labelledby="quick-info">
+        <h2 id="quick-info">Quick info</h2>
+        <p><strong>Phone:</strong> <a href="tel:+17095555555">709-555-5555</a></p>
+        <p><strong>Email:</strong> <a href="mailto:info@AvalonAdventures.ca">info@AvalonAdventures.ca</a></p>
+        <p><strong>Location:</strong> Avalon Peninsula, NL</p>
+        <div style="margin-top:12px">
+        
+        </div>
+      </aside>
+
+    </section>
+</header>
+<section id="home">
+  <h1>Welcome to Avalon Adventures</h1>
+  <p>Family-friendly adventures on the Avalon Peninsula.</p>
+  <button onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Book a trip</button>
+</section>
+
+<section id="services">
+<h2>Our Services</h2>
+
+<div class="services-container">
+
+<div class="service-card">
+<h3>Hiking Trips</h3>
+<p>Explore beautiful trails and enjoy nature with our guided hiking adventures.</p>
+<p>from$35</p>
+</div>
+
+<div class="service-card">
+<h3>Camping</h3>
+<p>Spend unforgettable nights under the stars with family-friendly camping trips.</p>
+<p>from$55</p>
+</div>
+
+<div class="service-card">
+<h3>Boat Tours</h3>
+<p>Discover the Avalon coastline with relaxing and scenic boat tours.</p>
+<p>from$65</p>
+</div>
+
+</div>
+</section>
+
+<section id="about">
+<h2>About Avalon Adventures</h2>
+<p>
+Avalon Adventures offers exciting outdoor experiences for families and
+travelers visiting the Avalon Peninsula. Our mission is to provide
+safe, fun, and memorable adventures in nature.
+</p>
+</section>
+
+</section>
+<section id="contact">
+  <h2>Contact Us</h2>
+  <form id="contactForm">
+    <label>Name*</label>
+    <input type="text" id="name" required>
+    <label>Email*</label>
+    <input type="email" id="email" required>
+    <label>Phone</label>
+    <input type="text" id="phone">
+    <label>Question*</label>
+    <textarea id="question" required></textarea>
+    <button type="submit">Submit Question</button>
+  </form>
+</section>
+
+<footer>
+<p>© 2024 Avalon Adventures | All Rights Reserved</p>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
